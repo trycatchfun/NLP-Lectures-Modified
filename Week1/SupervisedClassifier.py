@@ -10,4 +10,7 @@ from sklearn.svm import SVC
 
 # importing the dataset
 dataset = pd.read_csv('Iris.csv')
-# print(dataset.head(
+# print(dataset.head())
+
+# drop the id column
+dat
