@@ -9,4 +9,5 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import SVC
 
 # importing the dataset
-dataset = pd.read_c
+dataset = pd.read_csv('Iris.csv')
+# print(dataset.head(
