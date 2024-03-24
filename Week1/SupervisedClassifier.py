@@ -13,4 +13,5 @@ dataset = pd.read_csv('Iris.csv')
 # print(dataset.head())
 
 # drop the id column
-dat
+dataset = dataset.drop('Id', axis=1)
+# 
