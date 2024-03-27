@@ -16,4 +16,5 @@ dataset = pd.read_csv('Iris.csv')
 dataset = dataset.drop('Id', axis=1)
 # print(dataset.head())
 
-# Summary
+# Summary of dataset
+# print(dataset.shap
