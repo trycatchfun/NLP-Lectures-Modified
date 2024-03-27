@@ -17,4 +17,7 @@ dataset = dataset.drop('Id', axis=1)
 # print(dataset.head())
 
 # Summary of dataset
-# print(dataset.shap
+# print(dataset.shape)
+
+# more information
+# pr
