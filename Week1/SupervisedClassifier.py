@@ -21,4 +21,5 @@ dataset = dataset.drop('Id', axis=1)
 
 # more information
 # print(dataset.info())
-# p
+# print(dataset.describe())
+# print(da
