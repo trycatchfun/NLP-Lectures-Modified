@@ -26,4 +26,4 @@ dataset = dataset.drop('Id', axis=1)
 
 # Visualization
 # Box plot or whisker plot
-d
+dataset.plot(kind='box', sharex=Fal
