@@ -24,4 +24,6 @@ dataset = dataset.drop('Id', axis=1)
 # print(dataset.describe())
 # print(dataset.groupby('Species').size())
 
-# 
+# Visualization
+# Box plot or whisker plot
+d
