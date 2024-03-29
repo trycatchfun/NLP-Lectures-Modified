@@ -22,4 +22,6 @@ dataset = dataset.drop('Id', axis=1)
 # more information
 # print(dataset.info())
 # print(dataset.describe())
-# print(da
+# print(dataset.groupby('Species').size())
+
+# 
