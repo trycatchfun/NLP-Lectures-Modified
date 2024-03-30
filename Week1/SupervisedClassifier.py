@@ -29,4 +29,5 @@ dataset = dataset.drop('Id', axis=1)
 dataset.plot(kind='box', sharex=False, sharey=False)
 # plt.show()
 
-# 
+# Data preparation
+# X = dataset.iloc[
