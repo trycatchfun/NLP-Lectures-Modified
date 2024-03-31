@@ -31,4 +31,6 @@ dataset.plot(kind='box', sharex=False, sharey=False)
 
 # Data preparation
 # X = dataset.iloc[:, :-1].values
-# Target = dataset.il
+# Target = dataset.iloc[:, -1].values
+
+X = dataset
