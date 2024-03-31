@@ -35,4 +35,7 @@ dataset.plot(kind='box', sharex=False, sharey=False)
 
 X = dataset.iloc[:, :4].values
 Target = dataset.iloc[:, 4]
-# by using values each row separated into dependent va
+# by using values each row separated into dependent variables
+# print(Target)
+
+# Da
