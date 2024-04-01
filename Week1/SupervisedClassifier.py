@@ -38,4 +38,5 @@ Target = dataset.iloc[:, 4]
 # by using values each row separated into dependent variables
 # print(Target)
 
-# Da
+# Data splitting
+X_train, X_test, Target_
