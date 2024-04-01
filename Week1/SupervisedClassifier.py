@@ -45,4 +45,5 @@ X_train, X_test, Target_train, Target_test = train_test_split(X, Target, test_si
 # Define a model
 
 # Logistic Regression Classifier
-classifier = Logisti
+classifier = LogisticRegression()
+classifier.fit(
