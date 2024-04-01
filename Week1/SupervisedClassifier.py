@@ -42,3 +42,6 @@ Target = dataset.iloc[:, 4]
 X_train, X_test, Target_train, Target_test = train_test_split(X, Target, test_size=0.2, random_state=0)
 # print(X_train.shape)
 
+# Define a model
+
+# Logistic Regressio
