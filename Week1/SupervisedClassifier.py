@@ -48,4 +48,4 @@ X_train, X_test, Target_train, Target_test = train_test_split(X, Target, test_si
 classifier = LogisticRegression()
 classifier.fit(X_train, Target_train)
 
-T
+Target_predict = classifier.pred
