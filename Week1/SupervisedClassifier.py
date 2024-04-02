@@ -52,4 +52,4 @@ Target_predict = classifier.predict(X_test)
 
 print(classification_report(Target_test, Target_predict))
 print(confusion_matrix(Target_test, Target_predict))
-print('Accuracy of regression classifier:
+print('Accuracy of regression classifier::', accuracy_score(Target_test, T
