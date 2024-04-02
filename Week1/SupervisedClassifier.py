@@ -50,4 +50,5 @@ classifier.fit(X_train, Target_train)
 
 Target_predict = classifier.predict(X_test)
 
-print(classificatio
+print(classification_report(Target_test, Target_predict))
+p
