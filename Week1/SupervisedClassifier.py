@@ -57,4 +57,6 @@ print('Accuracy of regression classifier::', accuracy_score(Target_test, Target_
 # Naive Bayes Classifier
 # https://www.saedsayad.com/naive_bayesian.htm
 classifier = GaussianNB()
-classifier
+classifier.fit(X_train, Target_train)
+
+Target_pred
