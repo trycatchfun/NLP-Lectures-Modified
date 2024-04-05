@@ -65,4 +65,4 @@ Target_predict = classifier.predict(X_test)
 print(classification_report(Target_test, Target_predict))
 print(confusion_matrix(Target_test, Target_predict))
 # Accuracy score
-print
+print('accuracy is of NB', accuracy_score(Ta
