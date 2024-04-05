@@ -59,4 +59,4 @@ print('Accuracy of regression classifier::', accuracy_score(Target_test, Target_
 classifier = GaussianNB()
 classifier.fit(X_train, Target_train)
 
-Target_pred
+Target_predict = classifier.predict(X_test)
