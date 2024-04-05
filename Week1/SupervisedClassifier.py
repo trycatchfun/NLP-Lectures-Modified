@@ -63,4 +63,4 @@ Target_predict = classifier.predict(X_test)
 
 # Summary of the predictions made by the classifier
 print(classification_report(Target_test, Target_predict))
-print(confusion_matri
+print(confusion_matrix(Target_test, Target_predict)
