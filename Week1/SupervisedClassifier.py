@@ -60,3 +60,5 @@ classifier = GaussianNB()
 classifier.fit(X_train, Target_train)
 
 Target_predict = classifier.predict(X_test)
+
+# Summary of the predictions made by 
