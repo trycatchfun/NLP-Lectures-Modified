@@ -70,4 +70,6 @@ print('accuracy is of NB', accuracy_score(Target_test, Target_predict))
 # Decision Tree Classifier
 classifier = DecisionTreeClassifier()
 
-classifier.fit(X_tr
+classifier.fit(X_train, Target_train)
+
+Target_predict = c
