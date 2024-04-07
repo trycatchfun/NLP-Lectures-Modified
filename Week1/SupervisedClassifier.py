@@ -72,4 +72,5 @@ classifier = DecisionTreeClassifier()
 
 classifier.fit(X_train, Target_train)
 
-Target_predict = c
+Target_predict = classifier.predict(X_test)
+print(cl
