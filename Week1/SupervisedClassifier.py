@@ -68,4 +68,6 @@ print(confusion_matrix(Target_test, Target_predict))
 print('accuracy is of NB', accuracy_score(Target_test, Target_predict))
 
 # Decision Tree Classifier
-classifier = Decis
+classifier = DecisionTreeClassifier()
+
+classifier.fit(X_tr
