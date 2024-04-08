@@ -73,4 +73,4 @@ classifier = DecisionTreeClassifier()
 classifier.fit(X_train, Target_train)
 
 Target_predict = classifier.predict(X_test)
-print(cl
+print(classification_report(Target_test, Target_p
