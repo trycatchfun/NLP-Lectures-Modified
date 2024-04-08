@@ -74,4 +74,5 @@ classifier.fit(X_train, Target_train)
 
 Target_predict = classifier.predict(X_test)
 print(classification_report(Target_test, Target_predict))
-print(confusion_matrix(Target_test, 
+print(confusion_matrix(Target_test, Target_predict))
+print('Accu
