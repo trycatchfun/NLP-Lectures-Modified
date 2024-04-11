@@ -78,4 +78,5 @@ print(confusion_matrix(Target_test, Target_predict))
 print('Accuracy of Decision Tree is:', accuracy_score(Target_test, Target_predict))
 
 # SVM classifier
-classif
+classifier = SVC()
+classifier.fit
