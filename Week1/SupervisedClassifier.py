@@ -75,4 +75,7 @@ classifier.fit(X_train, Target_train)
 Target_predict = classifier.predict(X_test)
 print(classification_report(Target_test, Target_predict))
 print(confusion_matrix(Target_test, Target_predict))
-print('Accuracy of Decision Tree is:', accuracy_score(Target_test, Target_
+print('Accuracy of Decision Tree is:', accuracy_score(Target_test, Target_predict))
+
+# SVM classifier
+classif
