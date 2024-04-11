@@ -81,4 +81,4 @@ print('Accuracy of Decision Tree is:', accuracy_score(Target_test, Target_predic
 classifier = SVC()
 classifier.fit(X_train, Target_train)
 
-Target
+Target_predict = classifier.predict(X_te
