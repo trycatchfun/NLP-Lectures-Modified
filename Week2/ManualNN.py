@@ -1,4 +1,4 @@
 import numpy as np
 
 # Mini Dataset
-i
+input_data = np.array([5,
