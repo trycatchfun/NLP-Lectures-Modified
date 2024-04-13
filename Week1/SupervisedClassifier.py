@@ -85,4 +85,4 @@ Target_predict = classifier.predict(X_test)
 
 print(classification_report(Target_test, Target_predict))
 print(confusion_matrix(Target_test, Target_predict))
-print('Accuracy of SVM model is: ', accuracy_score(Target_te
+print('Accuracy of SVM model is: ', accuracy_score(Target_test, Target_predict))
