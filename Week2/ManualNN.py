@@ -14,4 +14,5 @@ def ReLu(x):
     return out
 
 
-def predict_with_NN(i
+def predict_with_NN(input_data_row, weights):
+    p
