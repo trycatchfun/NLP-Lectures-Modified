@@ -9,4 +9,6 @@ weights = {'node0': np.array([1, 1]),
 
 
 # Activation Function
-def Re
+def ReLu(x):
+    out = max(0, x)
+   
