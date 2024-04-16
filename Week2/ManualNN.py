@@ -11,4 +11,7 @@ weights = {'node0': np.array([1, 1]),
 # Activation Function
 def ReLu(x):
     out = max(0, x)
-   
+    return out
+
+
+def predict_with_NN(i
