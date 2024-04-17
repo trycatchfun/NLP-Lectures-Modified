@@ -15,4 +15,5 @@ def ReLu(x):
 
 
 def predict_with_NN(input_data_row, weights):
-    print("\nFirst element of input da
+    print("\nFirst element of input data: %s" % input_data)
+    print("Weight
