@@ -21,4 +21,4 @@ def predict_with_NN(input_data_row, weights):
     print("Weights for nodes in output: %s" % weights['output'])
 
     # Calculation for node 0 value
-    node_0_input = 
+    node_0_input = (input_data_row * weights
