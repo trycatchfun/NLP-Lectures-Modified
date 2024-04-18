@@ -20,4 +20,5 @@ def predict_with_NN(input_data_row, weights):
     print("Weights for nodes in hidden layer 1: %s" % weights['node1'])
     print("Weights for nodes in output: %s" % weights['output'])
 
-    # Calc
+    # Calculation for node 0 value
+    node_0_input = 
