@@ -29,4 +29,5 @@ def predict_with_NN(input_data_row, weights):
     # Calculation for node 1 value
     node_1_input = (input_data_row * weights['node1']).sum()
     print("Node 1 in hidden layer before activation function: %d" % node_1_input)
-    node_1_output = ReLu(no
+    node_1_output = ReLu(node_1_input)
+    print("Node 1 in hidden
