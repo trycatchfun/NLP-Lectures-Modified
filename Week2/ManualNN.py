@@ -34,4 +34,4 @@ def predict_with_NN(input_data_row, weights):
 
     # put node values into array : hidden_layer_output
     hidden_layer_output = np.array([node_0_output, node_1_output])
-    print("Hidde
+    print("Hidden layer: %s" % hidden_layer_o
