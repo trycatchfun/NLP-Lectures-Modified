@@ -33,4 +33,5 @@ def predict_with_NN(input_data_row, weights):
     print("Node 1 in hidden layer after activation function: %d" % node_1_output)
 
     # put node values into array : hidden_layer_output
-    hidden_layer_output = np.array([node_0_out
+    hidden_layer_output = np.array([node_0_output, node_1_output])
+    print("Hidde
