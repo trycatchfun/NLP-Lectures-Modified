@@ -37,4 +37,4 @@ def predict_with_NN(input_data_row, weights):
     print("Hidden layer: %s" % hidden_layer_output)
 
     # Calculate model output
-    input_to_final_layer = (hidden_layer_
+    input_to_final_layer = (hidden_layer_output * weights['output']).su
