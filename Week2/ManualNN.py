@@ -40,4 +40,4 @@ def predict_with_NN(input_data_row, weights):
     input_to_final_layer = (hidden_layer_output * weights['output']).sum()
     print("Output layer before activation function: %d" % input_to_final_layer)
     model_output = ReLu(input_to_final_layer)
-    print("Output l
+    print("Output layer after activation functi
