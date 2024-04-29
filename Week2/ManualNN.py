@@ -43,4 +43,7 @@ def predict_with_NN(input_data_row, weights):
     print("Output layer after activation function: %d" % model_output)
 
     # Return model output
-    return 
+    return model_output
+
+
+# Create Empty list to st
