@@ -42,4 +42,5 @@ def predict_with_NN(input_data_row, weights):
     model_output = ReLu(input_to_final_layer)
     print("Output layer after activation function: %d" % model_output)
 
-  
+    # Return model output
+    return 
