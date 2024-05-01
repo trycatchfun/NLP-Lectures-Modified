@@ -48,4 +48,5 @@ def predict_with_NN(input_data_row, weights):
 
 # Create Empty list to store prediction results
 results = []
-for in
+for input_data_row in input_data:
+    # A
