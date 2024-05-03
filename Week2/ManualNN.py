@@ -50,4 +50,7 @@ def predict_with_NN(input_data_row, weights):
 results = []
 for input_data_row in input_data:
     # Append prediction to result
-    results.append(predict_with_NN(input
+    results.append(predict_with_NN(input_data_row, weights))
+
+
+print(resu
