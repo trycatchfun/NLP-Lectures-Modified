@@ -53,4 +53,6 @@ for input_data_row in input_data:
     results.append(predict_with_NN(input_data_row, weights))
 
 
-print(resu
+print(results)
+
+
