@@ -9,4 +9,6 @@ target = 0
 
 predict = (input_data * weights).sum()
 
-# print("predict: %s" 
+# print("predict: %s" % predict)
+
+error = predict - t
