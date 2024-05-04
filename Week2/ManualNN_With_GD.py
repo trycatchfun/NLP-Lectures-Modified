@@ -11,4 +11,6 @@ predict = (input_data * weights).sum()
 
 # print("predict: %s" % predict)
 
-error = predict - t
+error = predict - target
+
+# print("error: %s" % error)
