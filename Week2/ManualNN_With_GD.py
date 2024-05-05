@@ -14,3 +14,5 @@ predict = (input_data * weights).sum()
 error = predict - target
 
 # print("error: %s" % error)
+
+# The derivation of loss function (MSE) 
