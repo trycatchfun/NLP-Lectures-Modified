@@ -15,4 +15,5 @@ error = predict - target
 
 # print("error: %s" % error)
 
-# The derivation of loss function (MSE) 
+# The derivation of loss function (MSE) would be the slope
+slope = 2 * error 
