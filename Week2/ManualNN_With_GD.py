@@ -25,4 +25,6 @@ slope = 2 * error * input_data
 # if slope is negative: Add
 updatedWeights = weights - (slope * learning_rate)
 
-# pri
+# print("Updated weights: %s" % updatedWeights)
+
+upda
