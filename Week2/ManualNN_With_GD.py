@@ -23,4 +23,6 @@ slope = 2 * error * input_data
 # Gradient Descent:
 # if slope is positive: Subtraction
 # if slope is negative: Add
-updated
+updatedWeights = weights - (slope * learning_rate)
+
+# pri
