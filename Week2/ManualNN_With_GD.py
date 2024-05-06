@@ -18,4 +18,7 @@ error = predict - target
 # The derivation of loss function (MSE) would be the slope
 slope = 2 * error * input_data
 
-# print("Slope: %
+# print("Slope: %s" % slope)
+
+# Gradient Descent:
+# if 
