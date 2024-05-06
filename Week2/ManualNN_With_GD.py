@@ -21,4 +21,6 @@ slope = 2 * error * input_data
 # print("Slope: %s" % slope)
 
 # Gradient Descent:
-# if slope is positive: Subtractio
+# if slope is positive: Subtraction
+# if slope is negative: Add
+updated
