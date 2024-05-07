@@ -31,4 +31,4 @@ updatedPredicts = (input_data * updatedWeights).sum()
 
 # print("Updated Predicts: %s" % updatedPredicts)
 
-updat
+updatedError = updatedPredicts - target
