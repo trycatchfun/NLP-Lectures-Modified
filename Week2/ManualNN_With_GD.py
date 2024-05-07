@@ -27,4 +27,4 @@ updatedWeights = weights - (slope * learning_rate)
 
 # print("Updated weights: %s" % updatedWeights)
 
-upda
+updatedPredicts = (input_data * updatedWe
