@@ -31,3 +31,29 @@ def predict_with_network(inputd, weights):
     node1_output = ReLu(node1_input)
 
     hidden_layer_values = np.array([node0_output, node1_output])
+
+    output = (hidden_layer_values * weights['output']).sum()
+    return output
+
+
+# Create model_output_0
+model_output_0 = []
+
+# Create model_output_1
+model_output_1 = []
+
+for row in input_data:
+    model_output_0.append(predict_with_network(row, weights))
+    model_output_1.append((predict_with_network(row, newWeights)))
+
+# Calculate the Mean Squared Error for model_output_0: mse0
+mse0 = mean_squared_error(model_output_0, ActualTargets)
+
+# Calculate the Mean Squared Error for model_output_1: mse1
+mse1 = mean_squared_error(model_output_1, ActualTargets)
+
+
+print("The predicted output for first model: %s" % model_output_0)
+print("Mean Squared Error with first series of weights: %f" % mse0)
+print("The predicted output for second model: %s" % model_output_1)
+print("Mean Squared Error with new weights: %f" % mse1)
