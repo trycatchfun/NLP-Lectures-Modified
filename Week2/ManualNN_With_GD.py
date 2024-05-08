@@ -36,4 +36,4 @@ updatedError = updatedPredicts - target
 # print("Update Error: %s" % updatedError)
 
 print("The error without applying gradient descent: %f" % error)
-print("the error with applyin
+print("the error with applying Gradient Descent/UpdatedError: %f" % up
