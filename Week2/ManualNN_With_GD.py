@@ -33,4 +33,6 @@ updatedPredicts = (input_data * updatedWeights).sum()
 
 updatedError = updatedPredicts - target
 
-# print("Update Error: %s" % 
+# print("Update Error: %s" % updatedError)
+
+print("The error withou
