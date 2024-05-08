@@ -32,3 +32,45 @@ Doc1 = dict.fromkeys(unique_Words, 0)
 # Count word occurrence in Doc
 for word in BoW[0]:
     Doc1[word] += 1
+
+Doc2 = dict.fromkeys(unique_Words, 0)
+for word in BoW[1]:
+    Doc2[word] += 1
+
+# print("Doc1:", Doc1)
+# print("Doc2:", Doc2)
+# document_word = pd.DataFrame([Doc1, Doc2])
+# print(document_word)
+# Using stopwords is highly recommended but It depends on your tasks
+
+
+# Compute TF
+def tf_computation(document, bag_of_words):
+    tf_doc = {}
+    bow_count = len(bag_of_words)
+    # print(bow_count)
+    for w, count in document.items():
+        tf_doc[w] = float(count / bow_count)
+    return tf_doc
+
+
+tfDoc1 = tf_computation(Doc1, BoW[0])
+tfDoc2 = tf_computation(Doc2, BoW[1])
+# print(tfDoc1)
+# print(tfDoc2)
+
+
+# Compute IDF
+def idf_computation(docs):
+    n = len(docs)
+    idf_dict = dict.fromkeys(docs[0].keys(), 0)
+    for document in docs:
+        for w, val in document.items():
+            if val > 0:
+                idf_dict[w] += 1
+    for w, val in idf_dict.items():
+        idf_dict[w] = math.log(n/float(val))
+    return idf_dict
+
+
+idf_s = idf_computation([Doc1, Doc2])
