@@ -74,3 +74,29 @@ def idf_computation(docs):
 
 
 idf_s = idf_computation([Doc1, Doc2])
+# print(idf_s)
+
+
+def tf_idf_computation(tf, idfs):
+    tf_idf = {}
+    for w, val in tf.items():
+        tf_idf[w] = val * idfs[w]
+    return tf_idf
+
+
+tf_idf_doc1 = tf_idf_computation(tfDoc1, idf_s)
+tf_idf_doc2 = tf_idf_computation(tfDoc2, idf_s)
+print(tf_idf_doc1)
+print(tf_idf_doc2)
+
+# Show in a data frame
+data_frame = pd.DataFrame([tf_idf_doc1, tf_idf_doc2])
+print(data_frame.head())
+
+
+# ................. TF-IDF implementation by Sklearn .................
+
+corpus2 = ['i am student of computer engineering at the university of guilan',
+           'i am studying natural language processing right now']
+vectorizer = TfidfVectorizer()
+x = vectorizer.fit_transform(corpus2)
