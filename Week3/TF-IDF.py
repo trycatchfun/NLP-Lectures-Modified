@@ -100,3 +100,9 @@ corpus2 = ['i am student of computer engineering at the university of guilan',
            'i am studying natural language processing right now']
 vectorizer = TfidfVectorizer()
 x = vectorizer.fit_transform(corpus2)
+feature_names = vectorizer.get_feature_names()
+# print(x.shape)
+output = x.todense()
+output_list = output.tolist()
+output_df = pd.DataFrame(output_list, columns=feature_names)
+print(output_df.head())
